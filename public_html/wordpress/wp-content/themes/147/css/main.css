@@ -123,6 +123,7 @@ a{
 }
 
 #header_title{
+    background-color: red;
     float: left;
     height: 100%;
     line-height: 60px;
