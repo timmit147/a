@@ -1,0 +1,14 @@
+from PIL import Image
+import matplotlib.pyplot as plt
+
+im = Image.open("image.jpg")
+  
+
+colors = im.getpixel((0,0))
+
+
+print(colors)  
+
+
+plt.imshow(colors)
+plt.show()
